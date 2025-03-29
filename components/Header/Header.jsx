@@ -33,6 +33,7 @@ function Header() {
         <a onClick={() => handleButtonClick("/home")} className="header-button">Inicio</a>
         <a onClick={() => handleButtonClick("/information")} className="header-button">Información</a>
         <a onClick={() => handleButtonClick("/gallery")} className="header-button">Galería</a>
+        <a onClick={() => handleButtonClick("/rss")} className="header-button">RSS</a>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import Information from "./pages/Information/Information"
 import Gallery from "./pages/Gallery/Gallery"
 import PolicyConditions from "./pages/PoliticyConditions/PolicyConditions"
 import RegisterProducts from "./pages/RegisterProducts/RegisterProducts"
+import Biografy from "./pages/Biografy/biografy"
 import "./App.css"
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/policyconditions" element={<PolicyConditions />} />
         <Route path="/registerproducts" element={<RegisterProducts />} />
+        <Route path="/rss" element={<Biografy />} />
         <Route path="*" element={<Home />} />
-        </Routes>
+      </Routes>
     </BrowserRouter>
   )
 }
