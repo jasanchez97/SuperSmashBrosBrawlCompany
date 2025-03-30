@@ -3,7 +3,7 @@
 This project has been inspired by one of my favorite games, as a practical vision pursuing a dream that I am about to fulfill.
 The domain is https://smashcompany-f25ed.web.app
 
-And the screenshot of the online feedreader is here: ![Captura del RSS feedreader.com](image.png)
+And the screenshot of the online feedreader is here: ![Captura del RSS feedreader.com](./screenshot.png)
 
 
 --- Built with ---
