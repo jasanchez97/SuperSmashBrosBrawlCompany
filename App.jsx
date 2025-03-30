@@ -4,7 +4,7 @@ import Information from "./pages/Information/Information"
 import Gallery from "./pages/Gallery/Gallery"
 import PolicyConditions from "./pages/PoliticyConditions/PolicyConditions"
 import RegisterProducts from "./pages/RegisterProducts/RegisterProducts"
-import Biografy from "./pages/Biografy/biografy"
+import RssFeed from "./components/RssFeed/rssfeed"
 import "./App.css"
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/policyconditions" element={<PolicyConditions />} />
         <Route path="/registerproducts" element={<RegisterProducts />} />
-        <Route path="/rss" element={<Biografy />} />
-        <Route path="*" element={<Home />} />
+        <Route path="/rss-feed.xml" element={<RssFeed feedUrl="https://smashcompany-f25ed.web.app/rss-feed.xml" />} />
+        <Route path="/*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   )
